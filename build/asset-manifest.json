@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.03ea1dba.css",
-    "main.js": "/static/js/main.dd6c481e.js",
+    "main.css": "/static/css/main.69ddd51d.css",
+    "main.js": "/static/js/main.2d411fad.js",
     "static/media/reebok.png": "/static/media/reebok.2b9ee7416f88e776debf.png",
     "static/media/movie.png": "/static/media/movie.db734ca8b9b3e3ebe1b4.png",
     "static/media/me.png": "/static/media/me.583741f7a71af2203f5a.png",
@@ -21,11 +21,11 @@
     "static/media/rdbms.svg": "/static/media/rdbms.329e93283083208f8d84e22471e373bc.svg",
     "static/media/circle.svg": "/static/media/circle.5627b84e3e421ff98551.svg",
     "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.03ea1dba.css.map": "/static/css/main.03ea1dba.css.map",
-    "main.dd6c481e.js.map": "/static/js/main.dd6c481e.js.map"
+    "main.69ddd51d.css.map": "/static/css/main.69ddd51d.css.map",
+    "main.2d411fad.js.map": "/static/js/main.2d411fad.js.map"
   },
   "entrypoints": [
-    "static/css/main.03ea1dba.css",
-    "static/js/main.dd6c481e.js"
+    "static/css/main.69ddd51d.css",
+    "static/js/main.2d411fad.js"
   ]
 }
