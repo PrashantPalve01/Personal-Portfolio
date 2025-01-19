@@ -149,7 +149,9 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <p className="text-xs text-center mt-32">Created by Debobrota</p>
+            <p className="text-xs text-center mt-32">
+              Created by Prashant Palve
+            </p>
           </ul>
         </div>
       </div>

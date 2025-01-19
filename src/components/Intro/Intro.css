@@ -93,6 +93,7 @@
   height: 300px;
   width: 300px;
   margin-top: -40px;
+  margin-left: -11px;
   object-fit: cover;
   border-radius: 50%;
   transition: all 0.5s ease;
@@ -136,6 +137,7 @@
 .i-right:hover {
   transform: scale(1.03);
 }
+
 .bottom-floting {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

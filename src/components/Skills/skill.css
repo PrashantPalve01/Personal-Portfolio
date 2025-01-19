@@ -13,21 +13,27 @@
   margin: auto;
   align-items: center;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: transform 0.2s, box-shadow 30s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .grid_img {
   height: 50px;
   width: 80px;
   aspect-ratio: 3/2;
   object-fit: contain;
 }
-.grid_img + p{
+
+.grid_img + p {
   margin-top: 8px;
 }
+
 .skill_child:hover {
-  background-color: #edf2f800;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fafafb00;
+  box-shadow: 0 0px 30px var(--hover-color);
+  transform: translateY(-10px); /* Optional lift effect */
 }
+
 @media screen and (max-width: 285px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);

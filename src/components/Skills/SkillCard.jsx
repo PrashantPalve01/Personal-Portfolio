@@ -18,8 +18,17 @@ const SkillCard = () => {
           className="skill_child"
           data-aos="slide-left"
           data-aos-duration="5000"
-          data-aos-delay="300">
-          <img src={item.img} alt="a" className="grid_img" draggable="false" />
+          data-aos-delay="300"
+          style={{
+            "--hover-color": item.color,
+          }}
+        >
+          <img
+            src={item.img}
+            alt={item.title}
+            className="grid_img"
+            draggable="false"
+          />
           <p>{item.title}</p>
         </div>
       ))}
@@ -28,4 +37,3 @@ const SkillCard = () => {
 };
 
 export default SkillCard;
-// ok 
