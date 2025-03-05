@@ -19,15 +19,15 @@
 }
 
 .grid_project {
-  display: flex;
-  width: 1000px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   margin-top: 5rem;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .pr_child {
-  width: 33.33%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
@@ -103,15 +103,15 @@
     text-align: center;
   }
   .grid_project {
-    flex-direction: column;
-    width: 300px;
+    grid-template-columns: repeat(1, 1fr);
   }
   .pr_child {
-    width: 100%;
+    margin: auto;
+    max-width: 320px;
   }
 }
 
-@media (min-width: 601px) and (max-width: 1020px) {
+@media (min-width: 601px) and (max-width: 900px) {
   .portfolio {
     width: 100%;
     padding: 8px;
@@ -120,9 +120,21 @@
   .grid_project {
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
-    display: grid;
   }
   .pr_child {
+    margin: auto;
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .portfolio {
     width: 100%;
+    padding: 8px;
+    text-align: center;
+  }
+  .grid_project {
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
   }
 }
