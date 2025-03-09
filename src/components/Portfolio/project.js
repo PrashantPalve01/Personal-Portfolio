@@ -7,7 +7,7 @@ export const project = [
   {
     img: hubHire,
     title: "GitHub Recruiter",
-    desc: "Developed a HubHire during a 48-hour hackathon, aimed at helping recruiters find developers based on their GitHub activity, projects, and skills. Implemented features like profile search, real-time filtering, and user recommendations.",
+    desc: "Developed a  GitHub Recruiter (Developer Talent Assessment) Platform during a 48-hour hackathon, aimed at helping recruiters find developers based on their GitHub activity, projects, and skills. Implemented features like profile search, real-time filtering, and user recommendations.",
     tech: "React.js, Chakra UI, Firebase, CSS, Node.js, Express.js, MongoDB",
     git: "https://github.com/PrashantPalve01/gitmatch-hackathon",
     deploy: "https://gitmatch-hackathon-frontend.onrender.com/",

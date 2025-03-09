@@ -14,7 +14,7 @@ const Intro = () => {
 
   const handleResumeClick = () => {
     const driveLink =
-      "https://drive.google.com/file/d/1rcEB-b7HQEhRLlZt56nV8lf0XWuShn8g/view";
+      "https://drive.google.com/file/d/1PCs-Y03Vm7i1JfQcxtZeacvMBU5jgVuv/view";
     window.open(driveLink, "_blank");
 
     const link = document.createElement("a");

@@ -44,10 +44,10 @@ const About = () => {
             </li>
             <br />
             <li>
-              I am a skilled Frontend Developer specializing in the MERN stack,
-              with experience in building and optimizing web applications for
-              better performance. I am passionate about coding and always eager
-              to learn new technologies.
+              I am a skilled Full Stack Developer specializing in the MERN
+              stack, with experience in building and optimizing web applications
+              for better performance. I am passionate about coding and always
+              eager to learn new technologies.
             </li>
             <br />
             <li>
