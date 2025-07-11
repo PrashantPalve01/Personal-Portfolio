@@ -26,7 +26,7 @@ const Navbar = () => {
 
   const handleResumeClick = () => {
     const driveLink =
-      "https://drive.google.com/file/d/15Yl4UHZWfsgirwym7ASgSwS5RZpH2t7Z/view";
+      "https://drive.google.com/file/d/1_ppzfN-Mv-ZLiyypkIsr4QpE3RAdahaX/view?usp=sharing";
     window.open(driveLink, "_blank");
 
     const link = document.createElement("a");
