@@ -18,8 +18,8 @@ const Intro = () => {
     window.open(driveLink, "_blank");
 
     const link = document.createElement("a");
-    link.href = "/Prashant_Palve_Full_Stack_Developer_Resume"; // Path to the file in the public folder
-    link.download = "Prashant_Palve_Full_Stack_Developer_Resume"; // Default name for the downloaded file
+    link.href = "/Prashant_Palve_Full_Stack_Developer_Resume.pdf"; // Path to the file in the public folder
+    link.download = "Prashant_Palve_Full_Stack_Developer_Resume.pdf"; // Default name for the downloaded file
     link.click();
   };
 
