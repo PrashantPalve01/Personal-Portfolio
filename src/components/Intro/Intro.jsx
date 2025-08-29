@@ -14,12 +14,12 @@ const Intro = () => {
 
   const handleResumeClick = () => {
     const driveLink =
-      "https://drive.google.com/file/d/1_ppzfN-Mv-ZLiyypkIsr4QpE3RAdahaX/view?usp=sharing";
+      "https://drive.google.com/file/d/16IeDnoOQwgEVR831idIttseXZyP4SdXQ/view?usp=sharing";
     window.open(driveLink, "_blank");
 
     const link = document.createElement("a");
-    link.href = "/PrashantPalve-FullStackWebDeveloper.pdf"; // Path to the file in the public folder
-    link.download = "PrashantPalve-FullStackWebDeveloper.pdf"; // Default name for the downloaded file
+    link.href = "/Prashant_Palve_Full_Stack_Developer_Resume"; // Path to the file in the public folder
+    link.download = "Prashant_Palve_Full_Stack_Developer_Resume"; // Default name for the downloaded file
     link.click();
   };
 

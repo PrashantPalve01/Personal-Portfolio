@@ -38,38 +38,42 @@ const About = () => {
         <div className="awesome " data-aos="slide-right">
           <ul className="about_article anim">
             <li>
-              Hello! My name is Prashant Palve, and I enjoy crafting responsive
-              and scalable web applications that provide a seamless user
-              experience.
+              Hello! I'm Prashant Palve, a Full Stack Developer who transforms
+              ideas into responsive, scalable web applications using the MERN
+              stack.
             </li>
             <br />
             <li>
-              I am a skilled Full Stack Developer specializing in the MERN
-              stack, with experience in building and optimizing web applications
-              for better performance. I am passionate about coding and always
-              eager to learn new technologies.
+              My development journey began during college, where I discovered my
+              fascination with creating digital solutions. This led to a
+              valuable software development internship at A2Z IT Hub, where I
+              contributed to multiple client projects and honed my skills in
+              building production-ready applications.
             </li>
             <br />
             <li>
-              My journey into web development started during my college days,
-              where I began exploring web technologies. I then completed an
-              internship at A2Z IT Hub, where I worked on multiple projects and
-              further developed my skills in full stack development. Later, I
-              joined Masai School to enhance my knowledge and deepen my
-              expertise in web development.
+              Currently completing an intensive Full Stack Development Bootcamp
+              at Masai School, I've strengthened my expertise in modern web
+              technologies and data structures & algorithms. I'm proficient in
+              utilizing Generative AI tools to enhance development workflows and
+              rapidly adapt to emerging technologies.
             </li>
             <br />
             <li>
-              Over time, I have developed several projects, including a movie
-              booking website and a clone of the Reebok website. These projects
-              helped me improve my skills in team collaboration, database
-              management, and user interface design.
+              What drives me is creating applications that genuinely solve
+              problems. My recent projects include GitHub Recruiter—a technical
+              hiring platform built in 48 hours that reduces manual screening by
+              80% through automated profile analysis—and MediTrack, a
+              comprehensive medication management system with real-time
+              features.
             </li>
             <br />
             <li>
-              I am eager to continue growing as both a frontend and full stack
-              developer, and contribute to projects that push the boundaries of
-              web development.
+              I thrive in collaborative environments and enjoy the entire
+              development cycle, from architecting scalable backends to crafting
+              intuitive user interfaces. Always eager to take on new challenges
+              and contribute to innovative projects that make a meaningful
+              impact.
             </li>
             <br />
           </ul>
