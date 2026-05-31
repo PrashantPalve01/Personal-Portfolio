@@ -3,15 +3,17 @@ import html from "../../img/html.svg";
 import css from "../../img/css.svg";
 import javascript from "../../img/javascript.svg";
 import mongodb from "../../img/mongodb.svg";
-import git from "../../img/git.svg";
-import npm from "../../img/npm.svg";
 import database from "../../img/database.png";
-import postman from "../../img/postman.png";
-import bootstrap from "../../img/bootstrap.svg";
-import rdbms from "../../img/rdbms.svg";
-import tailwind from "../../img/tailwind.png";
+import redux from "../../img/redux.svg";
+import nodejs from "../../img/nodejs.svg";
+import express from "../../img/express.svg";
 
 export const skill = [
+  {
+    img: database,
+    title: "DS & Algo",
+    color: "#264de4",
+  },
   {
     img: html,
     title: "HTML",
@@ -32,79 +34,38 @@ export const skill = [
     title: "React",
     color: "#61dafb",
   },
-  // {
-  //   img: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
-  //   title: "Next JS",
-  // },
-  // {
-  //   img: redux,
-  //   title: "Redux",
-  // },
-  // {
-  //   img: typescript,
-  //   title: "Typescript",
-  // },
-  // {
-  //   img: chakra,
-  //   title: "Chakra",
-  // },
-  // {
-  //   img: materialui,
-  //   title: "Materialui",
-  // },
   {
-    // img: "https://i.imgur.com/8xILRKD.png",
-    img: tailwind,
-    title: "Tailwind CSS",
-    color: "#38bdf8",
+    img: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+    title: "Next JS",
+    color: "#000000",
+    filter: "invert(1)", // white in dark, black in light
+    darkHoverColor: "#ffffff", // white glow in dark mode
+    lightHoverColor: "#000000", // black glow in light mod
   },
-  // {
-  //   img: nodejs,
-  //   title: "NodeJs",
-  // },
-  // {
-  //   img: express,
-  //   title: "Express",
-  // },
   {
-    img: bootstrap,
-    title: "Bootstrap",
-    color: "#7952b3",
+    img: redux,
+    title: "Redux",
+    color: "#764abc",
+    lightFilter: "none",
+    darkFilter: "brightness(1.4) saturate(1.5)",
+  },
+  {
+    img: nodejs,
+    title: "Node JS",
+    color: "#339933",
+    filter: "brightness(0.85)", // tones down the washed-out look in light mode
+  },
+  {
+    img: express,
+    title: "Express",
+    color: "#000000",
+    filter: "invert(1)", // same as Next JS
+    darkHoverColor: "#ffffff", // white glow in dark mode
+    lightHoverColor: "#000000", // black glow in light mode
   },
   {
     img: mongodb,
-    title: "MongoDb",
-    color: "#47a248",
-  },
-  {
-    img: git,
-    title: "Git",
-    color: "#f05032",
-  },
-  {
-    img: npm,
-    title: "npm",
-    color: "#cb3837",
-  },
-  {
-    img: database,
-    title: "DS & Algo",
-
-    color: "#264de4",
-  },
-  // {
-  //   img: cypress,
-  //   title: "Cypress",
-  // },
-  {
-    img: postman,
-    title: "Postman",
-    color: "#ff6c37",
-  },
-  {
-    img: rdbms,
-    title: "RDBMD",
-
+    title: "MongoDB",
     color: "#47a248",
   },
 ];

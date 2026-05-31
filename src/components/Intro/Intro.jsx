@@ -26,7 +26,7 @@ const Intro = () => {
   return (
     <SmoothList transitionDuration={2500} animated={true}>
       <div className="Intro" id="intro">
-        <div className="i-left">
+        <div className="i-left i-left--centered">
           <div className="i-name ">
             <span style={{ color: darkMode ? "white" : "" }}>
               <div style={{ fontSize: "27px" }}>
@@ -78,9 +78,6 @@ const Intro = () => {
           </div>
         </div>
         {/* ok */}
-        <div className="i-right">
-          <img src={me} alt="me" draggable="false" className="my_img anim" />
-        </div>
       </div>
     </SmoothList>
   );

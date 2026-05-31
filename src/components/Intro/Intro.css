@@ -6,6 +6,25 @@
   margin: auto;
   margin-top: 4rem;
   padding-top: 5rem;
+  justify-content: center;
+}
+
+/* Add this new class */
+.i-left--centered {
+  align-items: center; /* center children horizontally */
+  text-align: center; /* center inline text */
+  flex: unset; /* don't stretch to fill */
+}
+
+/* Center the icons row when centered */
+.i-left--centered .i-icons {
+  margin-left: 0;
+  justify-content: center;
+}
+
+/* Center the resume button */
+.i-left--centered .resum {
+  margin: 0 auto;
 }
 
 /* left side styling */

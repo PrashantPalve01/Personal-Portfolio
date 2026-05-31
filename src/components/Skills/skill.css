@@ -1,11 +1,12 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
-  gap: 30px;
+  gap: 50px;
   margin: auto;
   justify-content: center;
 }
+
 .skill_child {
   padding: 12px;
   border-radius: 12px;
@@ -13,7 +14,9 @@
   margin: auto;
   align-items: center;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 30s ease-out;
+  transition:
+    transform 0.2s,
+    box-shadow 30s ease-out;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
