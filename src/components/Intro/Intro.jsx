@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import me from "../../img/me.png";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import { themeContext } from "../../Context";
