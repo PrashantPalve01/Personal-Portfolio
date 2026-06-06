@@ -40,7 +40,7 @@ const Intro = () => {
               I'm a
               <span className="full_stack anim">
                 <Typewriter
-                  words={[" Full Stack Web Developer.", " Web Developer."]}
+                  words={[" Full Stack Developer.", " MERN Stack Developer."]}
                   loop
                   cursor
                   cursorStyle="|"
